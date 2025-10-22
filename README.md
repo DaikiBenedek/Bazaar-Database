@@ -2,13 +2,24 @@
 
 ## 📁 Repository Structure
 
-├── DDL.sql              # Database schema definition (tables, constraints, relationships)
-├── DML.sql              # Data population script with sample records
-├── Procedures.sql       # Stored procedures and functions
-├── Triggers.sql         # Triggers used for business logic and data validation
-├── Queries.sql          # Collection of example queries
-├── Report.pdf           # Full project report (Entity-Relationship model, documentation)
-└── README.md            # Project description and setup instructions
+```bash
+├── Diagramas/                              # Database design diagrams
+│   ├── ERLos_Piolines.drawio               # Entity-Relationship diagram (editable)
+│   ├── ERLos_Piolines.png                  # Entity-Relationship diagram (image)
+│   ├── RelacionalLos_Piolines.drawio       # Relational model diagram (editable)
+│   └── RelacionalLos_Piolines.png          # Relational model diagram (image)
+│
+├── SQL/                                    # SQL scripts and database logic
+│   ├── .DS_Store                           # (System file, may be ignored)
+│   ├── DDL.sql                             # Database schema (tables, constraints, relationships)
+│   ├── DML.sql                             # Data population script (sample records)
+│   ├── Query.sql                           # Collection of example queries
+│   └── SP_Triggers.sql                     # Stored procedures and triggers
+│
+├── LICENSE                                 # MIT License
+├── ProyectoFinal_Reporte.pdf               # Full project report (documentation, models, analysis)
+└── README.md                               # Project description and setup instructions
+```
 
 ## 📘 Overview
 
